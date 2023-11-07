@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             image.src = 'christmas2.gif';
 
             setTimeout(function() {
-                image.src = 'christmas3.gif';
+                image.src = 'https://imgur.com/a/KdaSuHF';
                 audioPlayed = true;
             }, 5550);
         }
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     image.addEventListener('load', function() {
         if (audioPlayed) {
-            image.src = 'christmas3.gif';
+            image.src = 'https://imgur.com/a/KdaSuHF';
         }
     });
 });
