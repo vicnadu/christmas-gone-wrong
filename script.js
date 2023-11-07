@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     audio.addEventListener('play', function() {
         if (!audioPlayed) {
-            image.src = 'christmas2.gif';
+            image.src = 'img/christmas2.gif';
 
             setTimeout(function() {
-                image.src = 'https://imgur.com/a/KdaSuHF';
+                image.src = 'img/christmas3.gif';
                 audioPlayed = true;
             }, 5550);
         }
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     image.addEventListener('load', function() {
         if (audioPlayed) {
-            image.src = 'https://imgur.com/a/KdaSuHF';
+            image.src = 'img/christmas3.gif';
         }
     });
 });
