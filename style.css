@@ -1,0 +1,46 @@
+/* Default */
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400;1,700&display=swap');
+
+/* Colors */
+/* :root {
+  --primary-color: #FF5C00;
+  --secondary-color: #00D26A;
+} */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #050273;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+          scroll-behavior: smooth;
+    }
+  }
+
+.heroimg {
+  width: 35em;
+}
+
+.hero {
+  height: 450px;
+}
+
+/* Media queries */
+@media screen and (max-width: 700px) {
+  .heroimg {
+    width: 25em;
+  }
+  .hero {
+    height: 400px;
+  }
+}
