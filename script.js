@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     audio.addEventListener('play', function() {
         if (!audioPlayed) {
-            image.src = 'img/christmas2.gif';
+            image.src = 'christmas2.gif';
 
             setTimeout(function() {
                 image.src = 'christmas3.gif';
